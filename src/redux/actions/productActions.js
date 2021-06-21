@@ -1,5 +1,5 @@
 import fakeStoreApi from '../../api/fakeStoreApi'
-import { ActionTypes } from '../contants/actionTypes'
+import { ActionTypes } from '../constants/actionTypes'
 
 export const fetchProducts = () => async (dispatch) => {
 	const response = await fakeStoreApi.get('/products')
